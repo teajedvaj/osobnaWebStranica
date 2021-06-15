@@ -10,7 +10,7 @@
   <meta content="" name="keywords">
 
   <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/.png" rel="icon">
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
@@ -28,7 +28,7 @@
   <link href="assets/css/style.css" rel="stylesheet">
 
   <!-- =======================================================
-  * Template Name: MyResume - v2.2.1
+  * Template Name: MyResume - v4.3.0
   * Template URL: https://bootstrapmade.com/free-html-bootstrap-template-my-resume/
   * Author: BootstrapMade.com
   * License: https://bootstrapmade.com/license/
@@ -38,17 +38,17 @@
 <body>
 
   <!-- ======= Mobile nav toggle button ======= -->
-  <button type="button" class="mobile-nav-toggle d-xl-none"><i class="icofont-navigation-menu"></i></button>
+  <!-- <button type="button" class="mobile-nav-toggle d-xl-none"><i class="bi bi-list mobile-nav-toggle"></i></button> -->
 
   <!-- ======= Header ======= -->
   <header id="header" class="d-flex flex-column justify-content-center">
 
-    <nav class="nav-menu">
+    <nav id="navbar" class="navbar nav-menu">
       <ul>
-        <li class="active"><a href="#hero"><i class="bx bx-početna"></i> <span>Početna</span></a></li>
-        <li><a href="#o meni"><i class="bx bx-user"></i> <span>O meni</span></a></li>
-        <li><a href="#resume"><i class="bx bx-file-blank"></i> <span>Resume</span></a></li>
- 
+        <li><a href="#Početna" class="nav-link scrollto active"><i class="bx bx-početna"></i> <span>Početna</span></a></li>
+        <li><a href="#Podaci o meni" class="nav-link scrollto"><i class="bx bx-user"></i> <span>Podaci o meni</span></a></li>
+        <li><a href="#O meni" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>O meni</span></a></li>
+        
       </ul>
     </nav><!-- .nav-menu -->
 
@@ -58,49 +58,47 @@
   <section id="hero" class="d-flex flex-column justify-content-center">
     <div class="container" data-aos="zoom-in" data-aos-delay="100">
       <h1>Tea Jedvaj</h1>
-      <p> U slobodno vrijeme <span class="typed" data-typed-items=" uživam u prirodi,vježbam,čitam,družim se s prijateljima"></span></p>
+      <p>U slobodno vrijeme <span class="typed" data-typed-items="uživam u prirodi,vježbam,čitam,družim se s prijateljima"></span></p>
       <div class="social-links">
-       <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+        <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
         <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
         <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
-	
-       
-      </div>
+       </div>
     </div>
   </section><!-- End Hero -->
 
   <main id="main">
 
-    <!-- ======= O meni Section ======= -->
-    <section id="o meni" class="o meni">
+    <!-- ======= Podaci o meni ======= -->
+    <section id="podaci o meni" class="podaci o meni">
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
-          <h2> O meni</h2>
-          
+          <h2>Podaci o meni</h2>
+         
         </div>
 
         <div class="row">
           <div class="col-lg-4">
-            <img src="assets/img/profilna-img.jpg" class="img-fluid" alt="">
+            <img src="assets/img/profilna" class="img-profilna" alt="">
           </div>
           <div class="col-lg-8 pt-4 pt-lg-0 content">
-           
            
             <div class="row">
               <div class="col-lg-6">
                 <ul>
-                  <li><i class="icofont-rounded-right"></i> <strong>Rođendan:</strong> 22. Travanj 2003.</li>
-                  <li><i class="icofont-rounded-right"></i> <strong>Mobitel:</strong> +095 531 4052</li>
-                  <li><i class="icofont-rounded-right"></i> <strong>Grad:</strong> Daruvar, Hrvatska</li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Rođendan:</strong> <span>22. travanj 2003.</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Mobitel:</strong> <span>+095 531 4052</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Grad:</strong> <span>Dauvar, Hrvatska</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>E-mail:</strong> <span> jedvajt@gmail.com</span></li>
                 </ul>
               </div>
               <div class="col-lg-6">
                 <ul>
-                  <li><i class="icofont-rounded-right"></i> <strong>Godine:</strong> 18 </li>
-                  <li><i class="icofont-rounded-right"></i> <strong>Škola:</strong> Ekonomska i turistička škola Daruvar</li>
-                 
-                </ul>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Godine:</strong> <span>18</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Škola:</strong> <span>Ekonomska i turistička škola Daruvar</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Zanimanje:</strong> <span>Hotelijersko-turistički tehničar</span></li>
+                 </ul>
               </div>
             </div>
             
@@ -110,96 +108,62 @@
       </div>
     </section><!-- End About Section -->
 
-    
-    
-    <!-- ======= Resume Section ======= -->
-    <section id="resume" class="resume">
+
+<!-- ======= O meni Section ======= -->
+    <section id="o meni" class="o meni">
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
-          <h2>Resume</h2>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+          <h2>O meni</h2>
+          
         </div>
 
         <div class="row">
           <div class="col-lg-6">
-            <h3 class="resume-title">Sumary</h3>
-            <div class="resume-item pb-0">
-              <h4>Brandon Johnson</h4>
-              <p><em>Innovative and deadline-driven Graphic Designer with 3+ years of experience designing and developing user-centered digital/print marketing material from initial concept to final, polished deliverable.</em></p>
+            <h3 class="o meni-title">Obitelj</h3>
+            <div class="o meni-item pb-0">
+              
+              <p><em>Obitelj mi znači sve na svijetu, oni me nadahnjuju, ispunjavaju mi svaki dan i čine me sretnom. Moja obitelj čine mama, tata, brat i sestra. </em></p>
               <ul>
-                <li>Portland par 127,Orlando, FL</li>
-                <li>(123) 456-7891</li>
-                <li>alice.barkley@example.com</li>
+                <li>Mama - moj najbolji prijatelj</li>
+                <li>Tata - moj zaštitnik</li>
+                <li>Sestra i brat - osobe bez kojih nebi mogla, jako se volimo iako to ne pokazujemo svakodnevno ;)</li>
               </ul>
             </div>
 
-            <h3 class="resume-title">Education</h3>
-            <div class="resume-item">
-              <h4>Master of Fine Arts &amp; Graphic Design</h4>
-              <h5>2015 - 2016</h5>
-              <p><em>Rochester Institute of Technology, Rochester, NY</em></p>
-              <p>Qui deserunt veniam. Et sed aliquam labore tempore sed quisquam iusto autem sit. Ea vero voluptatum qui ut dignissimos deleniti nerada porti sand markend</p>
+            <h3 class="o meni-title">Ljubimac</h3>
+            <div class="o meni-item">
+              <h4>Moj ljubimac je pas.</h4>
+             
+              <li>Živahan, razigran, mali,ali i  prava maza. Svi ga jako volimo, uvijek se raduje našem dolasku</li>
             </div>
             <div class="resume-item">
-              <h4>Bachelor of Fine Arts &amp; Graphic Design</h4>
-              <h5>2010 - 2014</h5>
-              <p><em>Rochester Institute of Technology, Rochester, NY</em></p>
-              <p>Quia nobis sequi est occaecati aut. Repudiandae et iusto quae reiciendis et quis Eius vel ratione eius unde vitae rerum voluptates asperiores voluptatem Earum molestiae consequatur neque etlon sader mart dila</p>
+             
+			 <h4>Putovanja</h4>
+              <p><em>Obožavam putovanja i volim da upoznajem nove običaje, kulturu, znamenitosti. Pored toga, putovanja u meni bude veoma lijepa osjećanja i svako putovanje pamtim po tome. Kada negdje putujem osjećam se mirno i spokojno i svako putovanje me čini sretnom. Svako putovanje u mom životu mi je podjednako drago, ali postoje i ona koja se po nečemu posebno izdvajaju od ostalih.</em></p>
+              <li>Željela bi još puno putovati i posjetiti još puno zemalja, a neke od njih su Španjolska, Francuska, Egipat, Crna Gora... </li>
             </div>
           </div>
-          <div class="col-lg-6">
-            <h3 class="resume-title">Professional Experience</h3>
-            <div class="resume-item">
-              <h4>Senior graphic design specialist</h4>
-              <h5>2019 - Present</h5>
-              <p><em>Experion, New York, NY </em></p>
-              <ul>
-                <li>Lead in the design, development, and implementation of the graphic, layout, and production communication materials</li>
-                <li>Delegate tasks to the 7 members of the design team and provide counsel on all aspects of the project. </li>
-                <li>Supervise the assessment of all graphic materials in order to ensure quality and accuracy of the design</li>
-                <li>Oversee the efficient use of production project budgets ranging from $2,000 - $25,000</li>
-              </ul>
-            </div>
-            <div class="resume-item">
-              <h4>Graphic design specialist</h4>
-              <h5>2017 - 2018</h5>
-              <p><em>Stepping Stone Advertising, New York, NY</em></p>
-              <ul>
-                <li>Developed numerous marketing programs (logos, brochures,infographics, presentations, and advertisements).</li>
-                <li>Managed up to 5 projects or tasks at a given time while under pressure</li>
-                <li>Recommended and consulted with clients on the most appropriate graphic design</li>
-                <li>Created 4+ design presentations and proposals a month for clients and account managers</li>
-              </ul>
-            </div>
-          </div>
-        </div>
+         
+     </main><!-- End #main -->
 
-      </div>
-    </section><!-- End Resume Section -->
-
-    
    
 
-  </main><!-- End #main -->
+    <a href="#" class="back-to-top"><i class="bx bx-up-arrow-alt"></i></a>
+  <div id="preloader"></div>
+    
 
   
-
-  <a href="#" class="back-to-top"><i class="bx bx-up-arrow-alt"></i></a>
-  <div id="preloader"></div>
-
   <!-- Vendor JS Files -->
-  <script src="assets/vendor/jquery/jquery.min.js"></script>
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
-  <script src="assets/vendor/waypoints/jquery.waypoints.min.js"></script>
-  <script src="assets/vendor/counterup/counterup.min.js"></script>
-  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-  <script src="assets/vendor/venobox/venobox.min.js"></script>
-  <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
-  <script src="assets/vendor/typed.js/typed.min.js"></script>
   <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/purecounter/purecounter.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/typed.js/typed.min.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
